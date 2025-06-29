@@ -6,6 +6,10 @@
      
 USE saul_webhost;
 
+DROP TABLE crawlerStats;
+DROP TABLE crawlerAccounts;
+
+
 CREATE TABLE crawlerAccounts (
 		UID INT (6) AUTO_INCREMENT NOT NULL,
         username VARCHAR (35) NOT NULL,
@@ -30,3 +34,5 @@ CREATE TABLE crawlerStats (
 --         charaClass VARCHAR (30)
 --         
 -- );
+
+SELECT * FROM crawlerAccounts;
